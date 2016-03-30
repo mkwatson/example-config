@@ -58,10 +58,13 @@
 )
 
 ;use eldoc to display fun arguments in minibuffer
-(add-hook 'emacs-lisp-mode-hook 'turn-on-eldoc-mode)
-(add-hook 'lisp-interaction-mode-hook 'turn-on-eldoc-mode)
-(add-hook 'ielm-mode-hook 'turn-on-eldoc-mode)
-(add-hook 'cider-repl-mode-hook 'turn-on-eldoc-mode)
+(add-hook 'cider-mode-hook 'turn-on-eldoc-mode)
+
+;hide the *nrepl-connection* and *nrepl-server* buffers
+(setq nrepl-hide-special-buffers t)
+
+;disable auto-selection of the error buffer 
+(setq cider-auto-select-error-buffer nil)
 
 ;use GNU ls
 (setq insert-directory-program "/usr/local/bin/gls")
@@ -72,3 +75,21 @@
 
 ;pprint in the repl by default
 (setq cider-repl-use-pretty-printing t)
+(setq cider-pprint-fn "clojure.pprint/pprint")
+
+;; company mode
+(add-hook 'cider-repl-mode-hook #'company-mode)
+(add-hook 'cider-mode-hook #'company-mode)
+
+;use ido-mode, a must-have for quick emacs navigation
+;from http://emacswiki.org/emacs/InteractivelyDoThings
+;more about it: http://www.masteringemacs.org/article/introduction-to-ido-mode
+(require 'ido)
+(ido-mode t)
+
+;smex brings the power of ido mode to your M-x mini-buffer, another way to supercharge your emacs navigation
+;from https://github.com/nonsequitur/smex
+(require-package 'smex)
+(smex-initialize)
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
