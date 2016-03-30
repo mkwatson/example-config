@@ -1,7 +1,7 @@
 *~
 *.elc
-elpa/magit-1.0.0/magit-autoloads.el
-auto-save-list/*
+elpa
+auto-save-list
 ac-comphist.dat
 url
 swank
