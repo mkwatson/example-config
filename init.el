@@ -4,7 +4,7 @@
 
 ;; installed packages
 ;; - exec-path-from-shell (not from stable!)
-;; - hl-sexp
+;; - hl-sexp (not anymore!)
 ;; - paredit
 ;; - clojure-mode
 ;; - cider
@@ -63,7 +63,6 @@ re-downloaded in order to locate PACKAGE."
 
 (dolist (file '("cfg-paredit.el"
 		"cfg-flycheck.el"
-		"cfg-hlsexp.el"
 		"cfg-cider.el"
                 "cfg-cljrefactor.el"))
   (load (concat dotfiles-lisp-dir file)))

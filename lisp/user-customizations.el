@@ -34,7 +34,7 @@
 (scroll-bar-mode -1)
 
 ;;turn off the cursor blinking -- personally i find it distracting
-;(blink-cursor-mode 0)
+(blink-cursor-mode 0)
 
 ;turn off text wrapping in the middle of a word
 (global-visual-line-mode 1)
@@ -93,3 +93,12 @@
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
+
+;let's make the matching paren even more noticable
+(require 'paren)
+(set-face-background 'show-paren-match (face-background 'default))
+(set-face-foreground 'show-paren-match "#def")
+(set-face-attribute 'show-paren-match nil :weight 'extra-bold)
+
+;always show test report after running
+(setq cider-test-show-report-on-success t)

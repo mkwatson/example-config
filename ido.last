@@ -1,0 +1,66 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/mawatson/Repositories/" . "okapi/")
+ ("/Users/mawatson/Repositories/okapi/src/" . "okapi/")
+ ("/Users/mawatson/Repositories/okapi/test/okapi/" . "test/")
+ ("/Users/mawatson/Repositories/okapi/test/" . "okapi/")
+ ("/Users/mawatson/Repositories/okapi/" . "test/")
+ ("/Users/mawatson/Repositories/okapi/src/okapi/" . "entities/")
+ ("/Users/mawatson/.emacs.d/" . "lisp/")
+ ("/Users/mawatson/" . "Repositories/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/mawatson/Repositories/okapi/test/okapi/test/"
+ "/Users/mawatson/Repositories/okapi/"
+ "/Users/mawatson/Repositories/okapi/src/okapi/"
+ "/Users/mawatson/Repositories/okapi/src/okapi/entities/"
+ "/Users/mawatson/.emacs.d/lisp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "analytic_sql.clj"
+ "project.clj"
+ "handler.clj"
+ "redshift.clj"
+ "redshift2.clj"
+ ".gitignore"
+ "core.clj"
+ "handlers.clj"
+ "csv_entity_upload.clj"
+ "user-customizations.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/mawatson/Repositories/okapi/test/okapi/test/" (22277 17649 0 0) "redshift.clj" "integration.clj" "handler.clj" "csv_entity_upload.clj" "analytic_sql.clj" "../" "./")
+
+ ("/Users/mawatson/Repositories/okapi/test/" (22277 17649 0 0) "sync-with-gimbal.sql" "output.sql" "okapi/" "../" "./")
+
+ ("/Users/mawatson/" (22277 15336 0 0) "Snapshots/" "Repositories/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Downloads/" "Documents/" "Development/" "Desktop/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zprofile" ".zcompdump-mwatson2-mac-5.0.8" ".zcompdump-mwatson2-mac-5.0.5" ".zcompdump-mwatson-5.0.8" ".zcompdump" ".yjp/" ".v8flags.4.5.103.35.mawatson.json" ".Trash/" ".subversion/" ".ssh/" ".smex-items" ".saves/" ".repl-history" ".putty/" ".psql_history" ".pgpass" ".parse/" ".parallel/" ".oracle_jre_usage/" ".OLDemacs.d/" ".oh-my-zsh/" ".odbc.ini" ".npm/" ".node_repl_history" ".node-gyp/" ".nbprofiler/" ".mysql_history" ".m2/" ".local/" ".live-packs/" ".lesshst" ".lein/" ".itmstransporter/" ".gnupg/" ".gitconfig" ".gem/" ".esets/" ".emacs.d/" ".DS_Store" ".docker/" ".dinghy/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".aws/" ".account" "../" "./")
+
+ ("/Users/mawatson/Repositories/okapi/" (22277 17582 0 0) "war-resources/" "test-resources/" "test/" "target/" "src/" "shared/" "resources/" "README.md" "project.clj" "dev-resources/" "deploy/" "circle.yml" "bin/" ".nrepl-port" ".lein-repl-history" ".lein-failures" ".lein-env" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/mawatson/Repositories/okapi/src/okapi/" (22277 16463 0 0) "validate_entities.clj" "utils.clj" "sync_with_gimbal.clj" "redshift.clj" "lat_long.clj" "handler.clj" "entities/" "distinct_users.clj" "csv_entity_upload.clj" "analytic_sql.clj" ".DS_Store" ".#analytic_sql.clj" "#analytic_sql.clj#" "../" "./")
+
+ ("/Users/mawatson/Repositories/okapi/test/okapi/" (22082 22596 0 0) "test/" "../" "./")
+
+ ("/Users/mawatson/Repositories/okapi/target/" (22275 64775 0 0) "stale/" "repl-port" "classes/" "../" "./")
+
+ ("/Users/mawatson/Repositories/okapi/src/okapi/entities/" (22274 44045 0 0) "handlers.clj" "core.clj" "../" "./")
+
+ ("/Users/mawatson/.emacs.d/lisp/" (22269 27432 0 0) "user-customizations.el" "cfg-paredit.el" "cfg-flycheck.el" "cfg-cljrefactor.el" "cfg-cider.el" "../" "./")
+
+ ("/Users/mawatson/.emacs.d/" (22268 21588 0 0) "site-lisp/" "README.md" "profiles_sample.clj" "lisp/" "init.el" "elpa/" "auto-save-list/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/mawatson/Repositories/" (22259 24762 0 0) "user-id-lambda/" "temp/" "tahoe_parse_app/" "sweet-liberty/" "s3/" "python-playground/" "pangolin/" "OLDpangolin/" "okapi/" "liberator/" "iot_registry/" "indegestor/" "dratagon/" "docker-datamanager/" "datasnap-ios-sdk/" "datasnap-ios-generic-sample/" "Datasnap-db/" "datasnap-datamanager/" "datasnap-core/" "clmystery/" "cheshire/" "blueshift/" "Beacon Test/" "analytics-ios/" "amazon-redshift-utils/" ".DS_Store" "../" "./")
+
+ ("/Users/mawatson/Repositories/okapi/src/" (22212 59804 0 0) "okapi/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
